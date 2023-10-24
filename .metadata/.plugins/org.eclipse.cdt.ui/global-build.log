@@ -1,0 +1,74 @@
+16:32:52 **** Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+Creating executable: ../out/clang-release/src/Tutorial_2.exe
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+16:35:54 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+16:37:42 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+16:44:14 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+Creating executable: ../out/clang-release/src/Tutorial_2.exe
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+19:53:11 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+19:53:13 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+20:01:28 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+network_source.cc:30:31: error: use of undeclared identifier 'replyMsg'
+ cMessage *msg = new cMessage(replyMsg.c_str());
+                              ^
+network_source.cc:35:31: error: use of undeclared identifier 'replyMsg'
+ cMessage *msg = new cMessage(replyMsg.c_str());
+                              ^
+network_source.cc:40:31: error: use of undeclared identifier 'replyMsg'
+ cMessage *msg = new cMessage(replyMsg.c_str());
+                              ^
+network_source.cc:45:31: error: use of undeclared identifier 'replyMsg'
+ cMessage *msg = new cMessage(replyMsg.c_str());
+                              ^
+4 errors generated.
+make[1]: *** [Makefile:107: ../out/clang-release/src/network_source.o] Error 1
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+make: *** [Makefile:2: all] Error 2
+"make MODE=release all" terminated with exit code 2. Build might be incomplete.
+20:02:31 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+Creating executable: ../out/clang-release/src/Tutorial_2.exe
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+21:50:56 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+Creating executable: ../out/clang-release/src/Tutorial_2.exe
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'

@@ -1,0 +1,27 @@
+version 3
+run General-0-20230904-21:51:33-16488
+attr configname General
+attr datetime 20230904-21:51:33
+attr datetimef 20230904-215133
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network_description
+attr processid 16488
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network_description
+
+par Network_description.Computer_1 typename "\"tutorial_2.Network_description.My_Node\""
+par Network_description.Computer_2 typename "\"tutorial_2.Network_description.My_Node\""
+par Network_description.Computer_3 typename "\"tutorial_2.Network_description.My_Node\""
+par Network_description.Computer_4 typename "\"tutorial_2.Network_description.My_Node\""
+par Network_description.Computer_5 typename "\"tutorial_2.Network_description.My_Node\""
+par Network_description typename "\"tutorial_2.Network_description\""
+

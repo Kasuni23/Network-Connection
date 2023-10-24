@@ -1,0 +1,10 @@
+21:50:56 **** Incremental Build of configuration release for project Tutorial_2 ****
+make MODE=release all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+network_source.cc
+Creating executable: ../out/clang-release/src/Tutorial_2.exe
+make[1]: Leaving directory '/e/omnet/Assignemnt_2/Tutorial_2/src'
+
+21:50:59 Build Finished. 0 errors, 0 warnings. (took 2s.464ms)
+
